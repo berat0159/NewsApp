@@ -58,5 +58,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation (libs.androidx.core.splashscreen)
+    implementation ("androidx.compose.material3:material3:1.1.1") // Material 3 kütüphanesi
+
+        implementation ("com.google.accompanist:accompanist-systemuicontroller:0.30.1")
 
 }
