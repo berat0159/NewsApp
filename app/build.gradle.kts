@@ -2,6 +2,10 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("com.google.dagger.hilt.android")
+    id("kotlin-kapt")
+
+
 }
 
 android {
@@ -60,6 +64,17 @@ dependencies {
     implementation (libs.androidx.core.splashscreen)
     implementation ("androidx.compose.material3:material3:1.1.1") // Material 3 kütüphanesi
 
-        implementation ("com.google.accompanist:accompanist-systemuicontroller:0.30.1")
+    implementation ("com.google.accompanist:accompanist-systemuicontroller:0.30.1")
+    implementation ("androidx.datastore:datastore-preferences:1.1.2")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation ("com.google.dagger:hilt-android:2.51.1")
+    // Jetpack Compose için Hilt ViewModel Desteği
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
+    kapt ("com.google.dagger:hilt-compiler:2.51.1")
 
+}
+
+// Allow references to generated code
+kapt {
+    correctErrorTypes = true
 }
