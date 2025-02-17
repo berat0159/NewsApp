@@ -3,7 +3,6 @@
     <style name="App.Starting.Theme" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#FFFF</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/newsicon</item>
-        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Theme.NewsApp</item>
     </style>
-
 </resources>

@@ -1,4 +1,4 @@
-package com.courage.newsapp.domain.usecases
+package com.courage.newsapp.domain.usecases.app_entry
 
 import com.courage.newsapp.domain.manager.LocalUserManager
 import kotlinx.coroutines.flow.Flow

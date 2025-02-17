@@ -22,7 +22,7 @@ fun NewsButton(
     Button(
         onClick = onClick,
         colors = ButtonDefaults.buttonColors(
-            containerColor = MaterialTheme.colorScheme.primary,
+            containerColor = MaterialTheme.colorScheme.onBackground,
             contentColor = androidx.compose.ui.graphics.Color.White
         ),
         shape = RoundedCornerShape(size = 6.dp)

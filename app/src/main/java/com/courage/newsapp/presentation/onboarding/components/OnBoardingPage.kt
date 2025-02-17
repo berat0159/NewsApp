@@ -45,13 +45,13 @@ fun OnBoardingPage(
             text = page.title,
             modifier = Modifier.padding(horizontal = MediumPadding2),
             style = MaterialTheme.typography.displaySmall.copy(fontWeight = FontWeight.Bold),
-            color = if (isSystemInDarkTheme()) MaterialTheme.colorScheme.surface else MaterialTheme.colorScheme.secondary
+            color = MaterialTheme.colorScheme.onBackground
         )
         Text(
             text = page.description,
             modifier = Modifier.padding(horizontal = MediumPadding2),
             style = MaterialTheme.typography.bodyMedium,
-            color = if (isSystemInDarkTheme()) MaterialTheme.colorScheme.surface else MaterialTheme.colorScheme.secondary
+            color = MaterialTheme.colorScheme.onBackground
         )
 
     }

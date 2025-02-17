@@ -12,18 +12,18 @@ data class Page(
 
 val pages = listOf(
     Page(
-        title = "Explore the World",
-        description = "Discover the latest news from around the world",
+        title = "Stay Informed",
+        description = "Get the latest news and updates from around the world, all in one place.",
         image = R.drawable.start1
     ),
     Page(
-        title = "Explore the World",
-        description = "Discover the latest news from around the world",
+        title = "Personalized for You",
+        description = "Follow your favorite topics and sources to see the news that matters most to you.",
         image = R.drawable.start2
     ),
     Page(
-        title = "Explore the World",
-        description = "Discover the latest news from around the world",
+        title = "Fast & Reliable",
+        description = "Access real-time news with a smooth and user-friendly experience.",
         image = R.drawable.start3
     )
 )

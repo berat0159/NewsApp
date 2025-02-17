@@ -1,4 +1,4 @@
-package com.courage.newsapp.domain.usecases
+package com.courage.newsapp.domain.usecases.app_entry
 
 data class AppEntryUseCases(
     val readAppEntry: ReadAppEntry,
